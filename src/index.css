@@ -1,0 +1,100 @@
+/* Example */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+}
+
+.product {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container-img img{
+  width: 200px;
+}
+
+.product {
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #fff;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+.detailes {
+  padding: 20px;
+  text-align: left;
+}
+
+.name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.category {
+  font-size: 1.1rem;
+  color: #6c757d; /* Muted text color for category */
+  margin-bottom: 10px;
+}
+
+.category-box {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+
+.category-men {
+  background-color: blue;
+}
+
+.category-women {
+  background-color: pink;
+  color: black;
+}
+
+.category-kids {
+  background-color: orange;
+}
+
+.category-default {
+  background-color: #6c757d;
+}
+
+
+.price {
+  font-size: 1.2rem;
+  color: #000000;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .product {
+      max-width: 350px;
+  }
+}
+
+.product-container h2{
+  text-align: center;
+  margin: 30px;
+}
